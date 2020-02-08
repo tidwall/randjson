@@ -69,7 +69,7 @@ Outputs:
 
 ```go
 type Options struct {
-	// Pretty formats and indents the random json. Default false
+	// Pretty formats and indents the random json. Default true
 	Pretty bool
 	// Spread is the number of unique words to use. Default 1,000
 	Words int
